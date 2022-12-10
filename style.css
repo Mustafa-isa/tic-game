@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url('/tic-tac-toe-family-fun-board-game-with-x-and-o-in-plastic-grab-original-imafg7u8ycudhbcm.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.game{
+    color: white;
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.game .head{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+
+    padding-top: 15px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 21, 21);
+    height: 50px;
+    margin-bottom: 30px;
+}
+span{
+    padding-right: 10px;
+    font-size: 20px;
+    color: white;
+
+ 
+}
+.container{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+gap: 10px;
+}
+.squer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:150px ;
+    background-color: rgb(235, 53, 53);
+    padding: 20px;
+font-size: 5em;
+border-radius: 20px;
+
+}
+.squer:hover{
+background-color:rgb(159, 100, 159);
+}
